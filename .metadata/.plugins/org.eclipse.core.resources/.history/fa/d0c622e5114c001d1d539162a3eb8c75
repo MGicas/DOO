@@ -1,0 +1,6 @@
+package edu.uco.budget.data.dao;
+
+public interface BudgetDAO {
+	
+
+}

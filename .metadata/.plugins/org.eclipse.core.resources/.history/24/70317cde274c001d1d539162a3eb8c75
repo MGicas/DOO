@@ -1,0 +1,13 @@
+package edu.uco.budget.data.dao.relational;
+
+import java.sql.Connection;
+
+public class DAORelational {
+	
+	private Connection connection;
+	
+	protected DAORelational(final Connection connection) {
+		
+	}
+
+}

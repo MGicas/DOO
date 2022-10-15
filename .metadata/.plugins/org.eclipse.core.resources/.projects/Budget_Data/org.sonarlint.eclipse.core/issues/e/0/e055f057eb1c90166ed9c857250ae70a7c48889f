@@ -1,0 +1,6 @@
+
+}	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Å“¢şÿÿÿÿ8÷€òÉ½0HŠRMAJORZ
+CODE_SMELL
+—
+java:S1128"dRemove this unused import 'edu.uco.budget.crosscutting.helper.SqlConnectionHelper.connectionIsOpen'.(ºÈ ¤8îùÊ½0HŒRMINORZ
+CODE_SMELL

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.helper.UUIDHelper"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.helper.NumberHelper"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.domain.YearDTO"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.domain.PersonDTO"/>
+    <fullyQualifiedTypeName name="java.util.UUID"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.data.dao.BudgetDAO"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.data.dao.PersonDAO"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.data.dao.YearDAO"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.messages.Messages.DAOFactory"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.helper.ObjectHelper"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.helper.SqlConnectionHelper"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.messages.Messages"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.messages.Messages.SqlConnectionHelper"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.data.dao.relational.DAORelational"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.data.dao.relational.sqlserver.BudgetSQLServerDAO"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.data.dao.relational.sqlserver.PersonSQLServerDAO"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.data.dao.relational.sqlserver.YearSQLServerDAO"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.domain.BudgetDTO"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.service.usecase.budget.CreateBudgetUseCase"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.data.daofactory.DAOFactory"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.data.enumeration.DAOFactoryType"/>
+</qualifiedTypeNameHistroy>

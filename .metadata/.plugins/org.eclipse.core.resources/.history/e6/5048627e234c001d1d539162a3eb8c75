@@ -1,0 +1,10 @@
+package edu.uco.budget.crosscutting.messages;
+
+public class Messages {
+	
+	public static class DAOFactory{
+		public static final String TECHNICAL_MONGODB_NOT_IMPLEMENTED = "DAOFactory Mongobd is not implemented yet";
+		
+	}
+
+}
