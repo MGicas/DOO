@@ -1,18 +1,12 @@
 
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-W
-'src/edu/uco/budget/data/dao/Budget.java,0\7\0767feb57e35f4ba6829f3cd893ee4ed1b7b2feb
 Z
 *src/edu/uco/budget/data/dao/BudgetDAO.java,8\4\84d8981410b5e57b5821cf4ae7bbd92bbe6862b9
 X
 (src/edu/uco/budget/data/dao/YearDAO.java,3\2\32b99446033cd7608e8e4f06f9ae2f00826a1806
 Z
 *src/edu/uco/budget/data/dao/PersonDAO.java,c\1\c1daf6430aa08fc603af2943e57fc6177f1a8bc9
-v
-Fsrc/edu/uco/budget/data/daofactory/relational/SQLServerDAOFactory.java,f\6\f68126e398a0b10dc83376df026a61d98c3cdbe4
-d
-4src/edu/uco/budget/data/enumeration/FactoryType.java,4\1\41eb82f8a5c42dd0122795e8407827759ed18a7c
 g
 7src/edu/uco/budget/data/enumeration/DAOFactoryType.java,5\4\54bdf6a64a3f40193c8ba58ea4a6e8443424a550
 b
