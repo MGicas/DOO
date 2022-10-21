@@ -15,7 +15,6 @@ final class SQLServerDAOFactory extends DAOFactory{
 	
 	SQLServerDAOFactory(){
 		openConnection();
-		initTransction();
 	}
 
 	@Override

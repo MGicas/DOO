@@ -633,3 +633,17 @@
 2022-10-21 14:09:28,538 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MELASNIE\Documents\DOO2022-02\Eclipse\BudgetDOO\DOO\Budget_Domain\src\main\resources
 2022-10-21 14:09:28,541 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-10-21 14:09:28,542 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MELASNIE\Documents\DOO2022-02\Eclipse\BudgetDOO\DOO\Budget_Domain\src\test\resources
+2022-10-21 15:16:38,380 [Worker-50: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Budget_Domain: edu.uco.budget:Budget_Domain:0.0.1-SNAPSHOT with classifier  to /Budget_Domain/target/classes
+2022-10-21 15:16:38,380 [Worker-50: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Budget_Crosscutting: edu.uco.budget:Budget_Crosscutting:0.0.1-SNAPSHOT with classifier  to /Budget_Crosscutting/target/classes
+2022-10-21 15:16:38,391 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-21 15:16:38,392 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MELASNIE\Documents\DOO2022-02\Eclipse\BudgetDOO\DOO\Budget_Data\src\main\resources
+2022-10-21 15:16:38,395 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-21 15:16:38,396 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MELASNIE\Documents\DOO2022-02\Eclipse\BudgetDOO\DOO\Budget_Data\src\test\resources
+2022-10-21 15:24:42,738 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-21 15:24:42,739 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MELASNIE\Documents\DOO2022-02\Eclipse\BudgetDOO\DOO\Budget_Data\src\main\resources
+2022-10-21 15:24:42,742 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-21 15:24:42,743 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MELASNIE\Documents\DOO2022-02\Eclipse\BudgetDOO\DOO\Budget_Data\src\test\resources
+2022-10-21 15:27:04,571 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-21 15:27:04,572 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MELASNIE\Documents\DOO2022-02\Eclipse\BudgetDOO\DOO\Budget_Data\src\main\resources
+2022-10-21 15:27:04,574 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-21 15:27:04,575 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MELASNIE\Documents\DOO2022-02\Eclipse\BudgetDOO\DOO\Budget_Data\src\test\resources

@@ -15,12 +15,12 @@ final class SQLServerDAOFactory extends DAOFactory{
 	
 	SQLServerDAOFactory(){
 		openConnection();
-		initTransction();
 	}
 
 	@Override
 	protected void openConnection() {
 		connection = null;
+		// TODO Auto-generated method stub
 		
 	}
 
