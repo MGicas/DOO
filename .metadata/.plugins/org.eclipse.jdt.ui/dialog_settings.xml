@@ -45,7 +45,7 @@
 	</section>
 	<section name="SourceActionDialog.methods">
 		<item key="VisibilityModifier" value="1"/>
-		<item key="FinalModifier" value="false"/>
+		<item key="FinalModifier" value="true"/>
 		<item key="SynchronizedModifier" value="false"/>
 		<item key="Comments" value="false"/>
 	</section>

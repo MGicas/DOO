@@ -1,5 +1,7 @@
 package edu.uco.budget.domain;
 
+import static edu.uco.budget.crosscutting.helper.UUIDHelper.getUUIDAsString;
+
 public class PersonDTO {
 	
 	private String id;
@@ -79,6 +81,8 @@ public class PersonDTO {
 		return getFirstname()+" " + getSecondName().trim() + " " + getSurname();
 	}
 	
-	
+	public final String getIDAsString() {
+		return getUUIDAsString();
+	}
 
 }

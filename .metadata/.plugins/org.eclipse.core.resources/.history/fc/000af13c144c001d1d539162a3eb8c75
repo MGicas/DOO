@@ -1,5 +1,0 @@
-package edu.uco.budget.data.dao.relational.sqlserver;
-
-public class BudgetSQLServerDAO {
-
-}

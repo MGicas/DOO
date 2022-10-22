@@ -3,6 +3,7 @@ package edu.uco.budget.domain;
 import java.util.UUID;
 import static edu.uco.budget.crosscutting.helper.UUIDHelper.getDefaultUUID;
 import static edu.uco.budget.crosscutting.helper.UUIDHelper.getNewUUID;
+import static edu.uco.budget.crosscutting.helper.UUIDHelper.getUUIDAsString;
 import static edu.uco.budget.crosscutting.helper.NumberHelper.isLessThan;
 import static edu.uco.budget.crosscutting.helper.NumberHelper.ZERO;
 
@@ -41,6 +42,8 @@ public class YearDTO {
 		this.yearNumber = isLessThan(yearNumber, ZERO)? ZERO : yearNumber;
 	}
 	
-	
+	public final String getIDAsString() {
+		return getIDAsString(getId());
+	}
 	
 }

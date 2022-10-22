@@ -1,0 +1,55 @@
+package edu.uco.budget.data.dao.relational.sqlserver;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.List;
+import java.util.UUID;
+
+import edu.uco.budget.crosscutting.messages.Messages;
+import edu.uco.budget.data.dao.BudgetDAO;
+import edu.uco.budget.data.dao.relational.DAORelational;
+import edu.uco.budget.domain.BudgetDTO;
+
+public class BudgetSQLServerDAO extends DAORelational implements BudgetDAO{
+	
+	public BudgetSQLServerDAO(Connection connection) {
+		super(connection);
+	}
+
+	@Override
+	public final void create(BudgetDTO budget) {
+		final var sql = "INSERT INTO Budget(id, idCard, idPerson) VALUES(?, ?, ?)";
+		try (final PreparedStatement preparedStatement = getConnection().prepareStatement(sql)){
+			preparedStatement.setString(1, budget.getIDAsString());
+			preparedStatement.setString(2, budget.getYear().getIDAsString());
+			preparedStatement.setString(3, budget.getPerson().getIDAsString());
+			
+			preparedStatement.executeUpdate();
+		} catch (final SQLException exception) {
+			String message = (Messages.BudgetSqlServerDAO.TECHNICAL_PROBLEM_CREATE.concat(budget.getIDAsString()))
+			throw DataCustomException.createTechnicalException(null, exception);
+		}catch (final Exception exception) {
+			String message = (Messages.BudgetSqlServerDAO.TECHNICAL_UNEXPECTED_PROBLEM_CREATE_BUDGET.concat(budget.getIDAsString()))
+		}
+		}
+
+	@Override
+	public List<BudgetDTO> find(final BudgetDTO budget) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public final void update(final BudgetDTO budget) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public final void delete(final UUID id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

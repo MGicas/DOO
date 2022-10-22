@@ -1,5 +1,0 @@
-package edu.uco.budget.data.daofactory;
-
-public final class DAOFactory {
-
-}

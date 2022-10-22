@@ -30,7 +30,33 @@ public class Messages {
 		
 		public static final String TECHNICAL_CONNECTION_IS_NULL = "Connection is null";
 		public static final String TECHNICAL_CONNECTION_IS_CLOSED = "Connection is closed";
+		public static final String TECHNICAL_CONNECTION_IS_ALREADY_CLOSED = "Connection is already closed";
+		public static final String TECHNICAL_CONNECTION_IS_CLOSED_FOR_INIT_TRANSACTION = "Connection is already closed";
+		public static final String TECHNICAL_CONNECTION_IS_CLOSED_FOR_COMMINT_TRANSACTION = "Connection is already closed";
+		public static final String TECHNICAL_CONNECTION_IS_CLOSED_FOR_ROLLBACK_TRANSACTION = "Connection is already closed";
+		public static final String TECHNICAL_PROBLEM_TRY_INIT_TRANSACTION = "There was a problem traying to init the transaction";
+		public static final String TECHNICAL_PROBLEM_TRY_COMMIT_TRANSACTION = "Connection is already closed";
+		public static final String TECHNICAL_PROBLEM_TRY_ROLLBACK_TRANSACTION = "Connection is already closed";
+	}
+	
+public static class SqlServerFactory{
+		
+		private SqlServerFactory() {
+			super();
+		}
+		public static final String TECHNICAL_CONNECTION_IS_CLOSED_FOR_INIT_TRANSACTION = "Connection is already closed";
+		
 		
 	}
+
+public static class BudgetSqlServerDAO{
+	
+	private BudgetSqlServerDAO() {
+		super();
+	}
+	public static final String TECHNICAL_PROBLEM_CREATE_BUDGET = "Connection is already closed";
+	public static final String TECHNICAL_UNEXPECTED_PROBLEM_CREATE_BUDGET = "Connection is already closed";
+	
+}
 
 }

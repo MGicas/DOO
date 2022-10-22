@@ -2,6 +2,7 @@ package edu.uco.budget.data.daofactory;
 
 import java.sql.Connection;
 
+import edu.uco.budget.crosscutting.helper.SqlConnectionHelper;
 import edu.uco.budget.data.dao.BudgetDAO;
 import edu.uco.budget.data.dao.PersonDAO;
 import edu.uco.budget.data.dao.YearDAO;
@@ -26,8 +27,7 @@ final class SQLServerDAOFactory extends DAOFactory{
 
 	@Override
 	public void initTransction() {
-		// TODO Auto-generated method stub
-		
+		// EL
 	}
 
 	@Override
