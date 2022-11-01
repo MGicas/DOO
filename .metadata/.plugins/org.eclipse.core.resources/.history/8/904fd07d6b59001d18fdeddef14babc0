@@ -1,0 +1,5 @@
+package edu.uco.budget.crosscutting.exception.data;
+
+public class CrosscuttingCustomException {
+
+}

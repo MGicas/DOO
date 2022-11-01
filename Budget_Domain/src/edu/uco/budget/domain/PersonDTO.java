@@ -82,7 +82,7 @@ public class PersonDTO {
 	}
 	
 	public final String getIDAsString() {
-		return getUUIDAsString();
+		return getUUIDAsString(null);
 	}
 
 }

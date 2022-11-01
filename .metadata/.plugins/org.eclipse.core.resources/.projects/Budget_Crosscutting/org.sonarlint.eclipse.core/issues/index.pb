@@ -11,3 +11,13 @@ f
 6src/edu/uco/budget/crosscutting/messages/Messages.java,5\b\5b18ed25b40dd9c17d446b88c51ab68c24b94a3b
 o
 ?src/edu/uco/budget/crosscutting/helper/SqlConnectionHelper.java,3\a\3ab51feb31e001f3ab25f6440412cfa5b795f0f7
+y
+Isrc/edu/uco/budget/crosscutting/exception/enumeration/LayerException.java,7\0\70e5c2ef330148370b8dce543326f8b5ca505f63
+t
+Dsrc/edu/uco/budget/crosscutting/execption/BudgetCustomException.java,d\e\de2b46685945446ce901d5732378e750fa41cae9
+
+Osrc/edu/uco/budget/crosscutting/exception/data/CrosscuttingCustomException.java,2\7\2762bb7e7e7b1d3801a1845a48e92e6f9eda6863
+w
+Gsrc/edu/uco/budget/crosscutting/exception/data/DataCustomException.java,2\3\23f5d387cd947fff18bb359289b946b872e46f05
+h
+8src/edu/uco/budget/crosscutting/helper/StringHelper.java,c\d\cd05eb25b4bb1896f947f0ae3a9015774a75d948
