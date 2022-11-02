@@ -1,5 +1,0 @@
-package edu.uco.budget.crosscutting.exception;
-
-public enum LayerException {
-
-}

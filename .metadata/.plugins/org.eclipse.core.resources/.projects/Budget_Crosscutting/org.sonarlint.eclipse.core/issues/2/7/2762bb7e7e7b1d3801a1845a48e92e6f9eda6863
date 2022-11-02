@@ -1,7 +1,11 @@
 
-o
-java:S2166"CRename this class to remove "Exception" or correct its inheritance.( îÙ¨H²RMAJORZ
+…	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÄ°…ıÿÿÿÿ8Œš¨Ã0HüRMINORZ
 CODE_SMELL
-n
-java:S2094"BRemove this empty class, write its code or make it an "interface".( îÙ¨H³RMINORZ
+…	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹€êÌøÿÿÿÿ8Œš¨Ã0HıRMINORZ
+CODE_SMELL
+€	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş‚Õ8Œš¨Ã0HşRMINORZ
+CODE_SMELL
+…	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È´ªÿıÿÿÿÿ8Œš¨Ã0HÿRMINORZ
+CODE_SMELL
+	java:S100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Àı8Œš¨Ã0H€RMINORZ
 CODE_SMELL

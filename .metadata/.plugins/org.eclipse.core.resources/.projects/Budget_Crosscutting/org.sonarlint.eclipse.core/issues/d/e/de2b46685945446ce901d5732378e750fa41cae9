@@ -1,7 +1,8 @@
 
-n
-java:S2166"CRename this class to remove "Exception" or correct its inheritance.(À€Å^HáRMAJORZ
+W
+java:S1165
+"$Make this "userMessage" field final.(ýŸÀ‰8¸Â–€Ã0HòRMINORZ
 CODE_SMELL
-m
-java:S2094"BRemove this empty class, write its code or make it an "interface".(À€Å^HâRMINORZ
+V
+java:S1165"Make this "layer" field final.(µº¾¦ûÿÿÿÿ8¸Â–€Ã0HóRMINORZ
 CODE_SMELL

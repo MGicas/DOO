@@ -21,7 +21,6 @@
     <fullyQualifiedTypeName name="edu.uco.budget.domain.builder.PersonDTOBuilder"/>
     <fullyQualifiedTypeName name="edu.uco.budget.domain.builder.YearDTOBuilder"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
-    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
     <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.messages.Messages.SqlConnectionHelper"/>
     <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.helper.SqlConnectionHelper"/>
     <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.messages.Messages"/>
@@ -33,4 +32,8 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.exception.data.CrosscuttingCustomException"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.execption.BudgetCustomException"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.exception.enumeration.LayerException"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.helper.StringHelper"/>
 </qualifiedTypeNameHistroy>
