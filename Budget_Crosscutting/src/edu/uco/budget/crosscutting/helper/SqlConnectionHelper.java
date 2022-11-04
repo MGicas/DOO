@@ -29,7 +29,7 @@ public final class SqlConnectionHelper {
 	
 	public static final void closeConnection(final Connection connection) {
 		if (connectionIsOpen(connection)) {
-			throw RuntimeException.createTechnicalException(Messages.SqlConnectionHelper.TECHNICAL_CONNECTION_IS_ALREADY_CLOSED);
+			throw RuntimeException.;
 		}
 		connection.close();
 	}

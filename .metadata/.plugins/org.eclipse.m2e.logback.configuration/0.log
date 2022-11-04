@@ -909,3 +909,9 @@
 2022-11-02 17:04:06,275 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MELASNIE\Documents\DOO2022-02\Eclipse\BudgetDOO\DOO\Budget_Data\src\main\resources
 2022-11-02 17:04:06,278 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-11-02 17:04:06,279 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MELASNIE\Documents\DOO2022-02\Eclipse\BudgetDOO\DOO\Budget_Data\src\test\resources
+2022-11-02 17:18:49,395 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-02 17:18:49,396 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MELASNIE\Documents\DOO2022-02\Eclipse\BudgetDOO\DOO\Budget_Crosscutting\src\main\resources
+2022-11-02 17:18:49,399 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-02 17:18:49,400 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MELASNIE\Documents\DOO2022-02\Eclipse\BudgetDOO\DOO\Budget_Crosscutting\src\test\resources
+2022-11-03 15:01:40,954 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-11-03 18:24:48,470 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
