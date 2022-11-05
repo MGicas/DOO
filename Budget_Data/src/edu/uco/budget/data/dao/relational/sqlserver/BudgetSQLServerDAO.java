@@ -11,7 +11,6 @@ import java.util.UUID;
 import edu.uco.budget.crosscutting.exception.data.DataCustomException;
 import edu.uco.budget.crosscutting.helper.ObjectHelper;
 import edu.uco.budget.crosscutting.helper.UUIDHelper;
-import edu.uco.budget.crosscutting.messages.Messages;
 import edu.uco.budget.data.dao.BudgetDAO;
 import edu.uco.budget.data.dao.relational.DAORelational;
 import edu.uco.budget.domain.BudgetDTO;
@@ -207,7 +206,7 @@ public class BudgetSQLServerDAO extends DAORelational implements BudgetDAO{
 
         try {
 
-        return BudgetDTO.create(resultSet.getString("idBudget"), fillYearDTO(resultSet), fillPersonDTO(resultSet));
+        return BudgetDTO.create(resultSet.getString("idBudget"),fillPersonDTO(resultSet), fillYearDTO(resultSet));
 
         } catch(final SQLException exception){
             throw DataCustomException.CreateTechnicalException(null, exception);

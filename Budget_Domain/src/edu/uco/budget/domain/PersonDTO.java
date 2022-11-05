@@ -1,18 +1,22 @@
 package edu.uco.budget.domain;
 
 import static edu.uco.budget.crosscutting.helper.UUIDHelper.getUUIDAsString;
+import static edu.uco.budget.crosscutting.helper.UUIDHelper.getDefaultUUID;
+import static edu.uco.budget.crosscutting.helper.UUIDHelper.getUUIDFromString;
+
+import java.util.UUID;
 
 public class PersonDTO {
 	
-	private String id;
+	private UUID id;
 	private String idCard;
 	private String firstName;
 	private String secondName;
 	private String firstSurname;
 	private String secondSurname;
 	
-	private PersonDTO(final String id, final String idCard, final String firstName, final String secondName, final String firstSurname, final String secondSurname){
-		setId(id);
+	private PersonDTO(final UUID id, final String idCard, final String firstName, final String secondName, final String firstSurname, final String secondSurname){
+		setId(getDefaultUUID(getId()));
 		setIdCard(idCard);
 		setFirstname(firstName);
 		setSecondName(secondName);
@@ -20,36 +24,40 @@ public class PersonDTO {
 		setSecondSurname(secondSurname);
 	}
 	
-	public static PersonDTO create(String id, String idCard, String firstName, String secondName, String firstSurname, String secondSurname) {
+	public static PersonDTO create(UUID id, String idCard, String firstName, String secondName, String firstSurname, String secondSurname) {
 		return new PersonDTO(id, idCard, firstName, secondName, firstSurname, secondSurname);
 	}
 	
-	private final void setId(String id) {
-		this.id = (id == null)? " " : id.trim();
+	public static final PersonDTO create(String id, String idCard, String firstName, String secondName, String firstSurname, String secondSurname) {
+		return new PersonDTO(getUUIDFromString(id), idCard, firstName, secondName, firstName, secondSurname);
+	}
+	
+	public final void setId(final UUID id) {
+		this.id = getDefaultUUID(id);
 	}
 
-	private final void setIdCard(String idCard) {
+	public final void setIdCard(final String idCard) {
 		this.idCard = (idCard == null)? " " : idCard.trim();
 	}
 
-	private final void setFirstname(String firstName) {
+	public final void setFirstname(String firstName) {
 		this.firstName = (firstName == null)? " " : firstName.trim();
 	}
 
-	private final void setSecondName(String secondName) {
+	public final void setSecondName(String secondName) {
 		this.secondName = (secondName == null)? " " : secondName.trim();
 	}
 
-	private final void setFirstSurname(String firstSurname) {
+	public final void setFirstSurname(String firstSurname) {
 		this.firstSurname = (firstSurname == null)? " " : firstSurname.trim();
 	}
 	
-	private final void setSecondSurname(String secondSurname) {
+	public final void setSecondSurname(String secondSurname) {
 		this.secondSurname = (secondSurname == null)? " " : secondSurname.trim();
 	}
 
 
-	public final String getId() {
+	public final UUID getId() {
 		return id;
 	}
 
