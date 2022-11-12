@@ -1,8 +1,9 @@
 package edu.uco.budget.data.dao.relational;
 
 import java.sql.Connection;
+
+import edu.uco.budget.crosscutting.exception.data.DataCustomException;
 import edu.uco.budget.crosscutting.helper.SqlConnectionHelper;
-import static edu.uco.budget.crosscutting.helper.SqlConnectionHelper.connectionIsOpen;
 import edu.uco.budget.crosscutting.messages.Messages;
 
 public class DAORelational {
@@ -11,7 +12,7 @@ public class DAORelational {
 	
 	protected DAORelational(final Connection connection) {
 		if(!SqlConnectionHelper.connectionIsOpen(connection)) {
-			throw new RuntimeException(Messages.SqlConnectionHelper.TECHNICAL_CONNECTION_IS_CLOSED); 
+			throw DataCustomException.CreateTechnicalException(Messages.SqlConnectionHelper.TECHNICAL_CONNECTION_IS_CLOSED);
 		}
 		this.connection = connection;
 	}

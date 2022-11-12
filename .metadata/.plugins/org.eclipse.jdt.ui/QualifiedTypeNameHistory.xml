@@ -19,7 +19,6 @@
     <fullyQualifiedTypeName name="edu.uco.budget.domain.builder.PersonDTOBuilder"/>
     <fullyQualifiedTypeName name="edu.uco.budget.domain.builder.YearDTOBuilder"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
-    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.messages.Messages.SqlConnectionHelper"/>
     <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.helper.SqlConnectionHelper"/>
     <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.messages.Messages.BudgetSqlServerDAO"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
@@ -30,13 +29,15 @@
     <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.execption.BudgetCustomException"/>
     <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.exception.enumeration.LayerException"/>
     <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.helper.StringHelper"/>
-    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.exception.data.DataCustomException"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="edu.uco.budget.domain.YearDTO"/>
     <fullyQualifiedTypeName name="edu.uco.budget.domain.PersonDTO"/>
-    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.helper.UUIDHelper"/>
     <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.exception.data.CrosscuttingCustomException"/>
-    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.messages.Messages"/>
     <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.messages.Messages.UUIDHelper"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.helper.UUIDHelper"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.exception.data.DataCustomException"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.messages.Messages"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.messages.Messages.SqlConnectionHelper"/>
 </qualifiedTypeNameHistroy>

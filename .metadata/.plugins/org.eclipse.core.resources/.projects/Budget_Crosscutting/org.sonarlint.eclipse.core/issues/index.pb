@@ -21,3 +21,5 @@ w
 Gsrc/edu/uco/budget/crosscutting/exception/data/DataCustomException.java,2\3\23f5d387cd947fff18bb359289b946b872e46f05
 h
 8src/edu/uco/budget/crosscutting/helper/StringHelper.java,c\d\cd05eb25b4bb1896f947f0ae3a9015774a75d948
+f
+6src/edu/uco/budget/crosscutting/helper/DateHelper.java,5\d\5df34ec8e9a50b728c383e5451b002fe12ce1eae
