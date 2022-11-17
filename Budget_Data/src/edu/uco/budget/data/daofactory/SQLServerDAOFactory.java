@@ -1,6 +1,11 @@
 package edu.uco.budget.data.daofactory;
 
 import java.sql.Connection;
+
+import edu.uco.budget.crosscutting.exception.crosscutting.CrosscuttingCustomException;
+import edu.uco.budget.crosscutting.exception.data.DataCustomException;
+import edu.uco.budget.crosscutting.helper.SqlConnectionHelper;
+import edu.uco.budget.crosscutting.messages.Messages;
 import edu.uco.budget.data.dao.BudgetDAO;
 import edu.uco.budget.data.dao.PersonDAO;
 import edu.uco.budget.data.dao.YearDAO;
@@ -25,25 +30,42 @@ final class SQLServerDAOFactory extends DAOFactory{
 
 	@Override
 	public void initTransction() {
-		// EL
+		try {
+			SqlConnectionHelper.initTrasaction(connection);
+		} catch (CrosscuttingCustomException exception) {
+			throw DataCustomException
+					.CreateTechnicalException(Messages.SqlServerFactory.TECHNICAL_CONNECTION_INIT_TRANSACTION, exception);
+		}
 	}
 
 	@Override
 	public void confirmTransaction() {
-		// TODO Auto-generated method stub
-		
+		try {
+			SqlConnectionHelper.commitTrasaction(connection);
+		} catch (CrosscuttingCustomException exception) {
+			throw DataCustomException.CreateTechnicalException(
+					Messages.SqlServerFactory.TECHNICAL_CONNECTION_CONFIRM_TRANSACTION, exception);
+		}
 	}
 
 	@Override
 	public void cancelTransaction() {
-		// TODO Auto-generated method stub
-		
+		try {
+			SqlConnectionHelper.rollbackTrasaction(connection);
+		} catch (CrosscuttingCustomException exception) {
+			throw DataCustomException.CreateTechnicalException(
+					Messages.SqlServerFactory.TECHNICAL_CONNECTION_ROLLBACK_TRANSACTION, exception);
+		}
 	}
 
 	@Override
 	public void closeTransaction() {
-		// TODO Auto-generated method stub
-		
+		try {
+			SqlConnectionHelper.closeConnection(connection);
+		} catch (CrosscuttingCustomException exception) {
+			throw DataCustomException
+					.CreateTechnicalException(Messages.SqlServerFactory.TECHNICAL_CONNECTION_CLOSE_CONNECTION, exception);
+		}
 	}
 
 	@Override

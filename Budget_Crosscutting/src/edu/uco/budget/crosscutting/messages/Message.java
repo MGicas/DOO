@@ -1,6 +1,7 @@
 package edu.uco.budget.crosscutting.messages;
 
 import edu.uco.budget.crosscutting.helper.ObjectHelper;
+import edu.uco.budget.crosscutting.helper.StringHelper;
 import edu.uco.budget.crosscutting.messages.enumeration.MessageLevel;
 
 public final class Message {
@@ -9,7 +10,8 @@ public final class Message {
 	private String content;
 	
 	public Message() {
-		setLevel();
+		setLevel(MessageLevel.FATAL);
+		setContent(StringHelper.EMPTY);
 	}
 
 	public Message(MessageLevel level, String content) {
@@ -51,7 +53,7 @@ public final class Message {
 	}
 
 	public final void setContent(String content) {
-		this.level = ObjectHelper.getDefaultIfNull(level, MessageLevel.FATAL);
+		content = StringHelper.applyTrim(content);
 	}
 	
 	

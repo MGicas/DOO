@@ -1,4 +1,4 @@
-package edu.uco.budget.crosscutting.exception.data;
+package edu.uco.budget.crosscutting.exception.crosscutting;
 
 import edu.uco.budget.crosscutting.exception.enumeration.LayerException;
 import edu.uco.budget.crosscutting.execption.BudgetCustomException;
